@@ -18,6 +18,7 @@
                         </div>
                     @endif
 
+
                     <form class="form-horizontal"
                           role="form"
                           method="POST"
@@ -58,6 +59,8 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
+
+                              {!! NoCaptcha::display() !!}
                                 <button type="submit"
                                         class="btn btn-primary"
                                         style="margin-right: 15px;">

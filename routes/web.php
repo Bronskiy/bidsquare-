@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomeController@getData');
+Route::view('/terms-and-conditions', 'pages.terms', ['name' => 'Terms & Conditions']);

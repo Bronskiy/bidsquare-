@@ -35,8 +35,6 @@
     <i class="fa fa-arrow-up"></i>
 </div>
 @include('admin.partials.javascripts')
-
 @yield('javascript')
+
 @include('admin.partials.footer')
-
-

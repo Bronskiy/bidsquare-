@@ -20,8 +20,9 @@ class HomePage extends Model {
     protected $dates = ['deleted_at'];
 
     protected $table    = 'homepage';
-    
+
     protected $fillable = [
+          'slider_background',
           'slider_title',
           'slider_text',
           'main_section',
@@ -31,10 +32,13 @@ class HomePage extends Model {
           'linkedin_link',
           'email',
           'phone',
+          'google_search',
+          'bing_search',
           'error_404_title',
-          'error_404_text'
+          'error_404_text',
+          'terms_text'
     ];
-    
+
 
     public static function boot()
     {
@@ -42,8 +46,8 @@ class HomePage extends Model {
 
         HomePage::observe(new UserActionsObserver);
     }
-    
-    
-    
-    
+
+
+
+
 }

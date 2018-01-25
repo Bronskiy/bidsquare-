@@ -16,9 +16,9 @@ return [
      * Quickadmin settings
      */
     // Default route
-    'route'              => 'admin',
+    'route'              => 'bdsqr2017',
     // Default home route
-    'homeRoute'          => 'admin',
+    'homeRoute'          => 'bdsqr2017',
 
     //Default home action
     // 'homeAction' => '\App\Http\Controllers\MyOwnController@index',

@@ -27,7 +27,7 @@
     <script type="text/javascript" src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/main.js') }}"></script>
-
+    <a href="#" id="toTop"><span id="toTopHover"><i class="fa fa-angle-up" aria-hidden="true"></i></span></a>
 </body>
 
 </html>
